@@ -3,7 +3,7 @@ import { useLanguage } from '../../context/LanguageContext';
 import Image from '../../assets/icon.svg'
 
 const Menu = () => {
-    const { lang, setLang, t } = useLanguage();
+    const { lang, setLang, menuExperience, menuWorks, menuRepositories, menuContact } = useLanguage();
     const [open, setOpen] = useState(false);
 
     return (
@@ -44,7 +44,7 @@ const Menu = () => {
                                 href="#experience"
                                 className="text-[#2F2F2F] text-xs md:text-sm uppercase tracking-wide relative group"
                             >
-                                {t.menu.experience}
+                                {menuExperience}
                                 <span className="absolute left-0 -bottom-1 h-[2px] w-full bg-[#BFF7E1] scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100" />
                             </a>
                         </li>
@@ -53,7 +53,7 @@ const Menu = () => {
                                 href="#works"
                                 className="text-[#2F2F2F] text-xs md:text-sm uppercase tracking-wide relative group"
                             >
-                                {t.menu.works}
+                                {menuWorks}
                                 <span className="absolute left-0 -bottom-1 h-[2px] w-full bg-[#BFF7E1] scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100" />
                             </a>
                         </li>
@@ -62,7 +62,7 @@ const Menu = () => {
                                 href="#repositories"
                                 className="text-[#2F2F2F] text-xs md:text-sm uppercase tracking-wide relative group"
                             >
-                                {t.menu.repositories}
+                                {menuRepositories}
                                 <span className="absolute left-0 -bottom-1 h-[2px] w-full bg-[#BFF7E1] scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100" />
                             </a>
                         </li>
@@ -71,7 +71,7 @@ const Menu = () => {
                                 href="#contact"
                                 className="text-[#2F2F2F] text-xs md:text-sm uppercase tracking-wide relative group"
                             >
-                                {t.menu.contact}
+                                {menuContact}
                                 <span className="absolute left-0 -bottom-1 h-[2px] w-full bg-[#BFF7E1] scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100" />
                             </a>
                         </li>
@@ -118,16 +118,16 @@ const Menu = () => {
                     <nav className="container mx-auto py-3">
                         <ul className="flex flex-col gap-3 text-sm text-[#2F2F2F]">
                             <li>
-                                <a href="#experience">{t.menu.experience}</a>
+                                <a href="#experience">{menuExperience}</a>
                             </li>
                             <li>
-                                <a href="#works">{t.menu.works}</a>
+                                <a href="#works">{menuWorks}</a>
                             </li>
                             <li>
-                                <a href="#repositories">{t.menu.repositories}</a>
+                                <a href="#repositories">{menuRepositories}</a>
                             </li>
                             <li>
-                                <a href="#contact">{t.menu.contact}</a>
+                                <a href="#contact">{menuContact}</a>
                             </li>
                             <li className="pt-2">
                                 <div className="relative inline-flex items-center bg-[#F4F1EA]/80 rounded-full p-[2px] shadow-sm">

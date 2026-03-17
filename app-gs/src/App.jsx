@@ -4,6 +4,7 @@ import { LanguageProvider } from './context/LanguageContext';
 import './App.css';
 import Menu from './components/menu';
 import Banner from './components/home/banner';
+import Experiences from './components/experience/Experiences';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Menu />
         <Routes>
           <Route path="/" element={<Banner />} />
+          <Route path="/experiences" element={<Experiences />} />
         </Routes>
       </BrowserRouter>
     </LanguageProvider>
