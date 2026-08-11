@@ -1,6 +1,6 @@
 const menu = {
   pt: {
-    menus: {
+    menu: {
       myexperience: 'Minha Experiência',
       works: 'Trabalhos',
       repositories: 'Repositórios',
@@ -8,7 +8,7 @@ const menu = {
     }
   },
   en: {
-    menus: {
+    menu: {
       myexperience: 'My Experience',
       works: 'Works',
       repositories: 'Repositories',

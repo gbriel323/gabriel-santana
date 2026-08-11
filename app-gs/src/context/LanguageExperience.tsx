@@ -3,10 +3,10 @@ const experiences = {
   pt: {
     experiences: [
       {
-        company: 'Empresa A',
+        company: 'Itaú Unibanco',
         role: 'Desenvolvedor Frontend',
-        duration: 'Jan 2020 - Presente',
-        description: 'Desenvolvimento de aplicações web usando React.',
+        duration: 'Março 2020 - Presente',
+        description: 'Desenvolvimento de aplicações web usando Angular e React.',
       },
       {
         company: 'Empresa B',

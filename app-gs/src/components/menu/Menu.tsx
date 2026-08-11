@@ -41,7 +41,7 @@ const Menu = () => {
                     <ul className="flex space-x-6 md:space-x-8 items-center">
                         <li>
                             <a
-                                href="#experience"
+                                href="/experiences"
                                 className="text-[#2F2F2F] text-xs md:text-sm uppercase tracking-wide relative group"
                             >
                                 {menuExperience}

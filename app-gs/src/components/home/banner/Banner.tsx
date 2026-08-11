@@ -3,7 +3,7 @@ import computer from '../../../assets/computer.svg';
 import { useLanguage } from '../../../context/LanguageContext';
 
 const Banner = () => {
-  const { t } = useLanguage();
+  const { bannerHi, bannerDescription, bannerButton } = useLanguage();
 
   return (
     <div
@@ -22,16 +22,16 @@ const Banner = () => {
 
       <div className="max-w-lg">
         <h1 className="text-[#2F2F2F] text-8xl font-bold mb-4">
-          {t.banner.hi}
+          {bannerHi}
         </h1>
         <p className="text-xl mb-8 text-[#2F2F2F]">
-          {t.banner.description}
+          {bannerDescription}
         </p>
         <a
           href="#contact"
           className="inline-block px-6 py-3 bg-[#BFF7E1] hover:bg-[#2F2F2F] text-[#2F2F2F] hover:text-[#F4F1EA] font-semibold rounded-lg transition duration-300"
         >
-          {t.banner.button}
+          {bannerButton}
         </a>
       </div>
     </div>
