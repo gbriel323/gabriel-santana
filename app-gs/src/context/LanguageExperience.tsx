@@ -1,6 +1,7 @@
 // LanguageExperience.js
 const experiences = {
   pt: {
+    titlePage: 'Minha Experiência',
     experiences: [
       {
         company: 'Itaú Unibanco',
@@ -29,6 +30,7 @@ const experiences = {
     titleSkill: 'Habilidades',
   },
   en: {
+    titlePage: 'My Experience',
     experiences: [
       {
         company: 'Company A',

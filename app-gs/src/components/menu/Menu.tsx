@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useLanguage } from '../../context/LanguageContext';
 import Image from '../../assets/icon.svg'
+import { Link } from 'react-router-dom';
 
 const Menu = () => {
     const { lang, setLang, menuExperience, menuWorks, menuRepositories, menuContact } = useLanguage();
@@ -10,7 +11,7 @@ const Menu = () => {
         <header className="fixed top-0 left-0 z-50 w-full bg-transparent p-4">
             <div className="container mx-auto flex items-center justify-between">
                 {/* LOGO */}
-                <div className="flex items-center gap-1">
+                <Link to="/" className="flex items-center gap-1">
                     <div className="w-15 h-15 flex items-center justify-center overflow-hidden">
                         <img
                             src={Image}
@@ -21,9 +22,9 @@ const Menu = () => {
                     </div>
 
                     <span className="text-xs md:text-sm text-[#2F2F2F] uppercase tracking-[0.2em]">
-                        Gabriel Sant ana
+                        Gabriel Santana
                     </span>
-                </div>
+                </Link>
 
                 {/* BOTÃO HAMBURGUER (MOBILE) */}
                 <button
