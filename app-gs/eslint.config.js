@@ -24,6 +24,9 @@ export default defineConfig([
     },
     rules: {
       'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
+      'import/named': 'off',    // Adicione esta linha
+      'import/default': 'off',   // E esta linha
+      'import/namespace': 'off'   // E esta linha
     },
   },
 ])

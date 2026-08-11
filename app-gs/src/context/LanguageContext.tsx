@@ -17,6 +17,8 @@ interface LanguageContextType {
   experiences: any[]; // Ajuste o tipo conforme sua estrutura de dados
   skills: string[];
   title: string;
+  titlePage: string;
+  
 }
 
 // Use a interface para criar o contexto com um valor padrão
@@ -42,6 +44,8 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
     experiences: experiences[lang].experiences,
     skills: experiences[lang].skills,
     title: experiences[lang].title,
+    titlePage: experiences[lang].titlePage,
+ 
   };
 
   return (
