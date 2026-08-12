@@ -34,7 +34,7 @@ jobs:
       # ========================================
 
       - name: Install dependencies
-        working-directory: app
+        working-directory: app-gs
         run: npm ci
 
       # ========================================
@@ -42,7 +42,7 @@ jobs:
       # ========================================
 
       - name: Build React Project
-        working-directory: app
+        working-directory: app-gs
         run: npm run build
 
       # ========================================
