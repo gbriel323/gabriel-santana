@@ -87,13 +87,13 @@ const Contact: React.FC = () => {
     };
 
     return (
-        <div className="bg-[#C7B8A6] min-h-screen flex flex-col md:flex-row items-center justify-center p-6">
+        <div className="bg-[#C7B8A6] min-h-screen flex flex-col lg:flex-row items-center p-6">
 
             {/* Left Half: Form */}
 
             <div className="w-full md:w-1/2 flex flex-col items-center">
 
-                <h2 className="text-4xl font-bold text-[#2F2F2F] mb-8">
+                <h2 className="text-2xl sm:text-3xl font-bold text-[#2F2F2F] m-20 mb-8">
                     {contactTitlePage}
                 </h2>
 
@@ -243,7 +243,7 @@ const Contact: React.FC = () => {
 
             {/* Right Half: Image */}
 
-            <div className="w-full p-7 md:w-1/2 flex justify-center items-center">
+            <div className="w-full p-7 md:w-1/2 flex justify-center items-center hidden lg:flex">
 
                 <img
                     src={PratileirasImage}
