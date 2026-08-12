@@ -95,7 +95,7 @@ const Menu: React.FC = () => {
                                 <span className="absolute -bottom-1 left-0 h-[2px] w-full origin-left scale-x-0 bg-[#BFF7E1] transition-transform duration-300 group-hover:scale-x-100" />
                             </Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <Link
                                 to="/works"
                                 className="relative text-xs uppercase tracking-wide text-[#2F2F2F] md:text-sm"
@@ -103,8 +103,8 @@ const Menu: React.FC = () => {
                                 {menuWorks}
                                 <span className="absolute -bottom-1 left-0 h-[2px] w-full origin-left scale-x-0 bg-[#BFF7E1] transition-transform duration-300 group-hover:scale-x-100" />
                             </Link>
-                        </li>
-                        <li>
+                        </li> */}
+                        {/* <li>
                             <Link
                                 to="#repositories"
                                 className="relative text-xs uppercase tracking-wide text-[#2F2F2F] md:text-sm"
@@ -112,7 +112,7 @@ const Menu: React.FC = () => {
                                 {menuRepositories}
                                 <span className="absolute -bottom-1 left-0 h-[2px] w-full origin-left scale-x-0 bg-[#BFF7E1] transition-transform duration-300 group-hover:scale-x-100" />
                             </Link>
-                        </li>
+                        </li> */}
                         <li>
                             <Link
                                 to="/contact"

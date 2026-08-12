@@ -38,16 +38,16 @@ const Experiences: React.FC = () => {
   }
 
   return (
-    <div className="bg-[#C7B8A6] pt-20 flex flex-col md:flex-row px-4 md:px-8">
+    <div className="bg-[#C7B8A6]  flex flex-col md:flex-row px-4 md:px-8">
       {/* Left Half: Image, hidden on small screens */}
-      <div className="w-full md:w-1/2 flex justify-center items-center md:mt-[-100px] hidden md:flex"> {/* Show only on medium screens and above */}
+      <div className="w-full md:w-1/2 flex justify-center items-center md:mt-[-140px] hidden md:flex"> {/* Show only on medium screens and above */}
         <img src={PratileirasImage} alt="Pratileiras" className="object-contain max-h-full" />
       </div>
 
       {/* Right Half: Experience Cards */}
-      <div className="w-full md:w-1/2 flex flex-col items-center">
+      <div className="w-full md:w-1/2 flex flex-col items-center md:pt-20">
 
-        <h2 className="text-3xl font-bold text-[#2F2F2F] mb-6">{titlePage}</h2>
+        <h2 className=" text-3xl font-bold text-[#2F2F2F] mb-6">{titlePage}</h2>
 
         {experiences.map((exp: iExperienceDetails, index: number) => (
           <div

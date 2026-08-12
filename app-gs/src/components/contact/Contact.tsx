@@ -243,7 +243,7 @@ const Contact: React.FC = () => {
 
             {/* Right Half: Image */}
 
-            <div className="w-full p-3 md:w-1/2 flex justify-center items-center">
+            <div className="w-full p-7 md:w-1/2 flex justify-center items-center">
 
                 <img
                     src={PratileirasImage}
