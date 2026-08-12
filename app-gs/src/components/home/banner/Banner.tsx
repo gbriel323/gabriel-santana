@@ -17,12 +17,12 @@ const Banner = () => {
         <img
           src={computer}
           alt="Computer illustration"
-          className="w-[220px] md:w-[360px] lg:w-[580px] drop-shadow-xl translate-x-[-10%] -translate-y-10"
+          className="w-[220px] md:w-[360px] lg:w-[580px] drop-shadow-xl translate-x-[-10%] -translate-y-10 animate-fade-in-up"
         />
       </div>
 
       <div className="max-w-lg">
-        <h1 className="text-[#2F2F2F] text-8xl font-bold mb-4">
+        <h1 className="text-[#2F2F2F] text-8xl font-bold mb-4 ">
           {bannerHi}
         </h1>
         <p className="text-xl mb-8 text-[#2F2F2F]">
@@ -33,7 +33,7 @@ const Banner = () => {
           className="inline-block px-6 py-3 bg-[#BFF7E1] hover:bg-[#2F2F2F] text-[#2F2F2F] hover:text-[#F4F1EA] font-semibold rounded-lg transition duration-300"
         >
           {bannerButton}
-          <span className="absolute -bottom-1 left-0 h-[2px] w-full origin-left scale-x-0 bg-[#BFF7E1] transition-transform duration-300 group-hover:scale-x-100" />
+          <span className="absolute -bottom-1 left-0 h-[2px] w-full origin-left scale-x-0 bg-[#BFF7E1] transition-transform duration-300 group-hover:scale-x-100 " />
         </Link>
         
       </div>

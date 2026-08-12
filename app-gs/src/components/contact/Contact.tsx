@@ -248,7 +248,7 @@ const Contact: React.FC = () => {
                 <img
                     src={PratileirasImage}
                     alt="Pratileiras"
-                    className="object-contain max-h-full"
+                    className="object-contain max-h-full animate-fade-in-up"
                 />
 
             </div>

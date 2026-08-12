@@ -23,11 +23,6 @@ const ExperienceCard: React.FC<ExperienceDetailsCardProps> = ({ experienceDetail
   </div>
 );
 
-const ExperienceTitle: React.FC<{ titlePage: string }> = ({ titlePage }) => (
-  <div>
-    <h2 className="text-3xl font-bold text-[#2F2F2F] mb-6">Teste{titlePage}</h2>
-  </div>
-);
 
 // Main Experiences Component
 const Experiences: React.FC = () => {
@@ -41,7 +36,7 @@ const Experiences: React.FC = () => {
     <div className="bg-[#C7B8A6]  flex flex-col md:flex-row px-4 md:px-8">
       {/* Left Half: Image, hidden on small screens */}
       <div className="w-full md:w-1/2 flex justify-center items-center md:mt-[-140px] hidden md:flex"> {/* Show only on medium screens and above */}
-        <img src={PratileirasImage} alt="Pratileiras" className="object-contain max-h-full" />
+        <img src={PratileirasImage} alt="Pratileiras" className="object-contain max-h-full animate-fade-in-up" />
       </div>
 
       {/* Right Half: Experience Cards */}
