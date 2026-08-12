@@ -5,6 +5,8 @@ import './App.css';
 import Menu from './components/menu';
 import Banner from './components/home/banner';
 import Experiences from './components/experience/Experiences';
+import Contact from './components/contact';
+import Work from './components/works';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Banner />} />
           <Route path="/experiences" element={<Experiences />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/works" element={<Work />} />
         </Routes>
       </BrowserRouter>
     </LanguageProvider>

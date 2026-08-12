@@ -2,6 +2,8 @@ import React, { createContext, useContext, useState, ReactNode } from 'react';
 import experiences from './LanguageExperience';
 import banner from './LanguageBanner';
 import menu from './LanguageMenu';
+import contact from './LanguageContact';
+import work from './LanguageWork';
 
 // Defina uma interface para o contexto
 interface LanguageContextType {
@@ -18,6 +20,17 @@ interface LanguageContextType {
   skills: string[];
   title: string;
   titlePage: string;
+  contactTitlePage: string;
+  contactTextEmail: string;
+  contactTextPhone: string;
+  contactFeedbackEmail: string;
+  contactNomeEmail: string;
+  contactEmailEmail: string;
+  contactMessageEmail: string;
+  contactButtonEmail: string;
+  worktitlePage: string;
+  works: any[]; 
+
   
 }
 
@@ -45,7 +58,18 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
     skills: experiences[lang].skills,
     title: experiences[lang].title,
     titlePage: experiences[lang].titlePage,
- 
+    contactTitlePage: contact[lang].contact.titlePage,
+    contactTextEmail: contact[lang].contact.textEmail,
+    contactTextPhone: contact[lang].contact.textPhone,
+    contactFeedbackEmail: contact[lang].contact.feedbackEmail,
+    contactNomeEmail: contact[lang].contact.nomeEmail,
+    contactEmailEmail: contact[lang].contact.emailEmail,
+    contactMessageEmail: contact[lang].contact.messageEmail,
+    contactButtonEmail: contact[lang].contact.buttonEmail,
+    worktitlePage: work[lang].work.titlePage,
+    works: work[lang].work.cardDetails,
+
+
   };
 
   return (

@@ -1,6 +1,7 @@
 import React from 'react';
 import computer from '../../../assets/computer.svg';
 import { useLanguage } from '../../../context/LanguageContext';
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
   const { bannerHi, bannerDescription, bannerButton } = useLanguage();
@@ -27,12 +28,14 @@ const Banner = () => {
         <p className="text-xl mb-8 text-[#2F2F2F]">
           {bannerDescription}
         </p>
-        <a
-          href="#contact"
+        <Link
+          to="/contact"
           className="inline-block px-6 py-3 bg-[#BFF7E1] hover:bg-[#2F2F2F] text-[#2F2F2F] hover:text-[#F4F1EA] font-semibold rounded-lg transition duration-300"
         >
           {bannerButton}
-        </a>
+          <span className="absolute -bottom-1 left-0 h-[2px] w-full origin-left scale-x-0 bg-[#BFF7E1] transition-transform duration-300 group-hover:scale-x-100" />
+        </Link>
+        
       </div>
     </div>
   );

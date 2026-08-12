@@ -97,7 +97,7 @@ const Menu: React.FC = () => {
                         </li>
                         <li>
                             <Link
-                                to="#works"
+                                to="/works"
                                 className="relative text-xs uppercase tracking-wide text-[#2F2F2F] md:text-sm"
                             >
                                 {menuWorks}
@@ -115,7 +115,7 @@ const Menu: React.FC = () => {
                         </li>
                         <li>
                             <Link
-                                to="#contact"
+                                to="/contact"
                                 className="relative text-xs uppercase tracking-wide text-[#2F2F2F] md:text-sm"
                             >
                                 {menuContact}
@@ -175,7 +175,7 @@ const Menu: React.FC = () => {
                             </li>
                             <li>
                                 <Link
-                                    to="#works"
+                                    to="/works"
                                     onClick={() => setOpen(false)}
                                     className="flex items-center justify-between rounded-xl px-3 py-2 transition hover:bg-[#E8E0D5]"
                                 >
@@ -195,7 +195,7 @@ const Menu: React.FC = () => {
                             </li>
                             <li>
                                 <Link
-                                    to="#contact"
+                                    to="/contact"
                                     onClick={() => setOpen(false)}
                                     className="flex items-center justify-between rounded-xl px-3 py-2 transition hover:bg-[#E8E0D5]"
                                 >
