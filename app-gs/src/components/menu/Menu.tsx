@@ -173,7 +173,7 @@ const Menu: React.FC = () => {
                                     <span className="text-base">→</span>
                                 </Link>
                             </li>
-                            <li>
+                            {/* <li>
                                 <Link
                                     to="/works"
                                     onClick={() => setOpen(false)}
@@ -182,8 +182,8 @@ const Menu: React.FC = () => {
                                     <span>{menuWorks}</span>
                                     <span className="text-base">→</span>
                                 </Link>
-                            </li>
-                            <li>
+                            </li> */}
+                            {/* <li>
                                 <Link
                                     to="#repositories"
                                     onClick={() => setOpen(false)}
@@ -192,7 +192,7 @@ const Menu: React.FC = () => {
                                     <span>{menuRepositories}</span>
                                     <span className="text-base">→</span>
                                 </Link>
-                            </li>
+                            </li> */}
                             <li>
                                 <Link
                                     to="/contact"
