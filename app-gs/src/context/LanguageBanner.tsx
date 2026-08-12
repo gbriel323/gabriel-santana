@@ -1,23 +1,20 @@
-
 const banner = {
   pt: {
     banner: {
       hi: 'Oi,',
       description:
-        'Meu nome é Gabriel Francisco Sant Ana, sou desenvolvedor Front-End com foco em Angular e React. Tenho experiência em automação de testes e sou formado em Sistemas de Informação e em Banco de Dados por duas instituições de ensino superior. Ao todo, construí uma trajetória de 13 anos no mercado de tecnologia.',
-      button: 'Fale comigo',
+        'Me chamo Gabriel Francisco Sant Ana. Sou um desenvolvedor Front-End apaixonado por criar experiências únicas na web, com um foco especial em Angular e React. Com 13 anos de jornada no mundo da tecnologia, não apenas escrevo código, mas construo soluções que fazem a diferença. Além disso, tenho experiência em automação de testes para garantir a qualidade do que crio. Vamos juntos transformar suas ideias em realidade?',
+      button: 'Vamos Conversar',
     },
   },
   en: {
-
     banner: {
       hi: 'Hi,',
       description:
-        'My name is Gabriel Francisco Sant Ana, and I’m a Front-End developer specializing in Angular and React. I have experience with test automation and hold degrees in Information Systems and Database from two universities. Altogether, I’ve built a 13-year career in the technology industry.',
-      button: 'Get in Touch',
+        'I’m Gabriel Francisco Sant Ana, a Front-End developer passionate about crafting unique web experiences, specializing in Angular and React. With 13 years in the tech world, I not only write code but also build solutions that make an impact. I also have experience in test automation to ensure the quality of what I create. Let’s turn your ideas into reality together!',
+      button: 'Let’s Chat',
     },
   },
-
 };
 
 export default banner;
